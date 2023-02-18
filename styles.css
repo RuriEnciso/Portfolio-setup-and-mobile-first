@@ -1,0 +1,124 @@
+
+body {
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    background-image: url(./images/contact\ form\ background\ shapes@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 1.7rem;
+}
+
+.menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+.menuLogo {
+    color: #6070FF;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 4%;
+    line-height: 6%;
+}
+
+.menuVector {
+    position: relative;
+    top: 12px;
+    width: 22px;
+    right: 24px;  
+}
+
+.vector {
+    display: block;
+    background-color: #6070FF;
+    width: 100%;
+    height: 2.5px;
+    margin: 4px;
+    border-radius: 2px;
+}
+
+.main-content {
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+.main-content h1 {
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 60px;
+    padding-top: 8%;
+    color: #091E42;
+}
+
+.description {
+    margin-top: -3%;
+    font-size: 1.5rem;
+    color: #344563;
+}
+
+.contact-link {
+    margin-top: -2%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #7F8CFF;
+}
+
+.main-content li {
+    list-style-type: none;
+    margin-left: -2.5rem;
+    margin-top: -0.6rem;
+}
+
+.main-content img {
+    height: 0.99rem;
+    margin-right: 0.95rem;
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        background-image: url(./images/header-shapes\ mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 3rem;
+    }
+    
+    .main-content {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .main-content h1 {
+        font-size: 2.55rem;
+        line-height: 47px;
+        padding-top: 21%;
+        font-weight: 700;
+        color: #172B4D;
+    }
+
+    .description {
+        margin-top: -7%;
+        font-size: 1rem;
+    }
+
+    .contact-link {
+        margin-top: -2.5%;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #7F8CFF;
+    }
+
+    .main-content li {
+        list-style-type: none;
+        margin-left: -13.5%;
+    }
+
+    .main-content img {
+        height: 0.95rem;
+        margin-right: 1rem;
+    }
+}
